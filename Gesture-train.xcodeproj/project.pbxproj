@@ -16,6 +16,11 @@
 		018CF95B25121C7900283418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CF95A25121C7900283418 /* main.m */; };
 		018CF96525121C7900283418 /* Gesture_trainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CF96425121C7900283418 /* Gesture_trainTests.m */; };
 		018CF97025121C7900283418 /* Gesture_trainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CF96F25121C7900283418 /* Gesture_trainUITests.m */; };
+		018CF9812512486B00283418 /* BDSAddTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CF9802512486B00283418 /* BDSAddTextContainerView.m */; };
+		018CF984251248C200283418 /* BDSAddTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CF983251248C200283418 /* BDSAddTextView.m */; };
+		05BC652EC12C6508CB3DAADA /* Pods_Gesture_train.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F46D6819096AC5761F7248C /* Pods_Gesture_train.framework */; };
+		97A7B9BC4FEB0A342F83FF75 /* Pods_Gesture_trainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6E0228833C2EF26AD27230 /* Pods_Gesture_trainTests.framework */; };
+		F03587DE7A71F4F4542477E8 /* Pods_Gesture_train_Gesture_trainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF940DFD95C6F4B63E8F498 /* Pods_Gesture_train_Gesture_trainUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,19 @@
 		018CF96B25121C7900283418 /* Gesture-trainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gesture-trainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018CF96F25121C7900283418 /* Gesture_trainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gesture_trainUITests.m; sourceTree = "<group>"; };
 		018CF97125121C7900283418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018CF97F2512486B00283418 /* BDSAddTextContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDSAddTextContainerView.h; sourceTree = "<group>"; };
+		018CF9802512486B00283418 /* BDSAddTextContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDSAddTextContainerView.m; sourceTree = "<group>"; };
+		018CF982251248C200283418 /* BDSAddTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDSAddTextView.h; sourceTree = "<group>"; };
+		018CF983251248C200283418 /* BDSAddTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDSAddTextView.m; sourceTree = "<group>"; };
+		1D27DA41AAE0E8FE11ED2B21 /* Pods-Gesture-train-Gesture-trainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-train-Gesture-trainUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gesture-train-Gesture-trainUITests/Pods-Gesture-train-Gesture-trainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29C4C64326A5E477983C11BB /* Pods-Gesture-train.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-train.release.xcconfig"; path = "Target Support Files/Pods-Gesture-train/Pods-Gesture-train.release.xcconfig"; sourceTree = "<group>"; };
+		2E6E0228833C2EF26AD27230 /* Pods_Gesture_trainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gesture_trainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F476FE7C15F5E2A0BEEDA7 /* Pods-Gesture-train-Gesture-trainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-train-Gesture-trainUITests.release.xcconfig"; path = "Target Support Files/Pods-Gesture-train-Gesture-trainUITests/Pods-Gesture-train-Gesture-trainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F7EE9B936F2D0BCA830D360 /* Pods-Gesture-trainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-trainTests.release.xcconfig"; path = "Target Support Files/Pods-Gesture-trainTests/Pods-Gesture-trainTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F46D6819096AC5761F7248C /* Pods_Gesture_train.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gesture_train.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A995F2E610211983619AFE2D /* Pods-Gesture-train.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-train.debug.xcconfig"; path = "Target Support Files/Pods-Gesture-train/Pods-Gesture-train.debug.xcconfig"; sourceTree = "<group>"; };
+		B889C288BDDA3D06E22ECECE /* Pods-Gesture-trainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gesture-trainTests.debug.xcconfig"; path = "Target Support Files/Pods-Gesture-trainTests/Pods-Gesture-trainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF940DFD95C6F4B63E8F498 /* Pods_Gesture_train_Gesture_trainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gesture_train_Gesture_trainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BC652EC12C6508CB3DAADA /* Pods_Gesture_train.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A7B9BC4FEB0A342F83FF75 /* Pods_Gesture_trainTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03587DE7A71F4F4542477E8 /* Pods_Gesture_train_Gesture_trainUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +109,8 @@
 				018CF96325121C7900283418 /* Gesture-trainTests */,
 				018CF96E25121C7900283418 /* Gesture-trainUITests */,
 				018CF94625121C7600283418 /* Products */,
+				B9D33EA69F529004A9188B63 /* Pods */,
+				C100F1528BE6D3459160A7C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +127,10 @@
 		018CF94725121C7600283418 /* Gesture-train */ = {
 			isa = PBXGroup;
 			children = (
-				018CF97D25121DE700283418 /* TextEditor */,
+				018CF97F2512486B00283418 /* BDSAddTextContainerView.h */,
+				018CF9802512486B00283418 /* BDSAddTextContainerView.m */,
+				018CF982251248C200283418 /* BDSAddTextView.h */,
+				018CF983251248C200283418 /* BDSAddTextView.m */,
 				018CF94825121C7600283418 /* AppDelegate.h */,
 				018CF94925121C7600283418 /* AppDelegate.m */,
 				018CF94B25121C7600283418 /* SceneDelegate.h */,
@@ -138,11 +164,27 @@
 			path = "Gesture-trainUITests";
 			sourceTree = "<group>";
 		};
-		018CF97D25121DE700283418 /* TextEditor */ = {
+		B9D33EA69F529004A9188B63 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				A995F2E610211983619AFE2D /* Pods-Gesture-train.debug.xcconfig */,
+				29C4C64326A5E477983C11BB /* Pods-Gesture-train.release.xcconfig */,
+				1D27DA41AAE0E8FE11ED2B21 /* Pods-Gesture-train-Gesture-trainUITests.debug.xcconfig */,
+				74F476FE7C15F5E2A0BEEDA7 /* Pods-Gesture-train-Gesture-trainUITests.release.xcconfig */,
+				B889C288BDDA3D06E22ECECE /* Pods-Gesture-trainTests.debug.xcconfig */,
+				8F7EE9B936F2D0BCA830D360 /* Pods-Gesture-trainTests.release.xcconfig */,
 			);
-			path = TextEditor;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C100F1528BE6D3459160A7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F46D6819096AC5761F7248C /* Pods_Gesture_train.framework */,
+				EAF940DFD95C6F4B63E8F498 /* Pods_Gesture_train_Gesture_trainUITests.framework */,
+				2E6E0228833C2EF26AD27230 /* Pods_Gesture_trainTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018CF97425121C7A00283418 /* Build configuration list for PBXNativeTarget "Gesture-train" */;
 			buildPhases = (
+				506E0DD368935168B9FDA223 /* [CP] Check Pods Manifest.lock */,
 				018CF94125121C7600283418 /* Sources */,
 				018CF94225121C7600283418 /* Frameworks */,
 				018CF94325121C7600283418 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018CF97725121C7A00283418 /* Build configuration list for PBXNativeTarget "Gesture-trainTests" */;
 			buildPhases = (
+				CDEC4BA9B85B087AB73270CF /* [CP] Check Pods Manifest.lock */,
 				018CF95C25121C7900283418 /* Sources */,
 				018CF95D25121C7900283418 /* Frameworks */,
 				018CF95E25121C7900283418 /* Resources */,
@@ -187,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018CF97A25121C7A00283418 /* Build configuration list for PBXNativeTarget "Gesture-trainUITests" */;
 			buildPhases = (
+				A3F16061126B57294C79EA00 /* [CP] Check Pods Manifest.lock */,
 				018CF96725121C7900283418 /* Sources */,
 				018CF96825121C7900283418 /* Frameworks */,
 				018CF96925121C7900283418 /* Resources */,
@@ -270,13 +315,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		506E0DD368935168B9FDA223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gesture-train-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F16061126B57294C79EA00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gesture-train-Gesture-trainUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEC4BA9B85B087AB73270CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gesture-trainTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		018CF94125121C7600283418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				018CF95025121C7600283418 /* ViewController.m in Sources */,
+				018CF984251248C200283418 /* BDSAddTextView.m in Sources */,
 				018CF94A25121C7600283418 /* AppDelegate.m in Sources */,
+				018CF9812512486B00283418 /* BDSAddTextContainerView.m in Sources */,
 				018CF95B25121C7900283418 /* main.m in Sources */,
 				018CF94D25121C7600283418 /* SceneDelegate.m in Sources */,
 			);
@@ -445,15 +561,17 @@
 		};
 		018CF97525121C7A00283418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A995F2E610211983619AFE2D /* Pods-Gesture-train.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY22G4W6AH;
 				INFOPLIST_FILE = "Gesture-train/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cqb.Gesture-train";
+				PRODUCT_BUNDLE_IDENTIFIER = "cqb.Gesture-train.chenquanbin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,15 +579,17 @@
 		};
 		018CF97625121C7A00283418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C4C64326A5E477983C11BB /* Pods-Gesture-train.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY22G4W6AH;
 				INFOPLIST_FILE = "Gesture-train/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cqb.Gesture-train";
+				PRODUCT_BUNDLE_IDENTIFIER = "cqb.Gesture-train.chenquanbin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,6 +597,7 @@
 		};
 		018CF97825121C7A00283418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B889C288BDDA3D06E22ECECE /* Pods-Gesture-trainTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +617,7 @@
 		};
 		018CF97925121C7A00283418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7EE9B936F2D0BCA830D360 /* Pods-Gesture-trainTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +637,7 @@
 		};
 		018CF97B25121C7A00283418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D27DA41AAE0E8FE11ED2B21 /* Pods-Gesture-train-Gesture-trainUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Gesture-trainUITests/Info.plist";
@@ -532,6 +655,7 @@
 		};
 		018CF97C25121C7A00283418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F476FE7C15F5E2A0BEEDA7 /* Pods-Gesture-train-Gesture-trainUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Gesture-trainUITests/Info.plist";

@@ -7,27 +7,21 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@property (nonatomic, strong) UIView *imageView;
-
-@end
+#import "BDSAddTextView.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.imageView = [[UIView alloc]init];
-    self.imageView.backgroundColor = [UIColor blackColor];
-    self.imageView.bounds = CGRectMake(0, 0, 200, 200);
-    [self.view addSubview:self.imageView];
-    self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.imageView.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor].active = YES;
-    [self.imageView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor].active = YES;
-    [self.imageView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
-    [self.imageView.heightAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
+    BDSAddTextView *textView = [[BDSAddTextView alloc]init];
+    textView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:textView];
+    textView.translatesAutoresizingMaskIntoConstraints = NO;
+    [textView.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor].active = YES;
+    [textView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor].active = YES;
+    [textView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
+    [textView.heightAnchor constraintEqualToAnchor:self.view.heightAnchor].active = YES;
 }
 
 
